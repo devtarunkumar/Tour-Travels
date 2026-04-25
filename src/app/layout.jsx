@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import './globals.css';
 
 export const metadata = {
-  title: 'WanderLux - Luxury Travel',
-  description: 'Discover the world with WanderLux',
+  title: 'Vinayak Tour & Travels',
+  description: 'Discover the world with Vinayak Tour & Travels',
 };
 
 export default function RootLayout({ children }) {
