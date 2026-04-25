@@ -1,20 +1,7 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import './globals.css';
-
-export const metadata = {
-  title: 'WanderLux - Luxury Travel',
-  description: 'Discover the world with WanderLux',
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
