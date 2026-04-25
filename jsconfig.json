@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",   // ⭐ MOST IMPORTANT
+    "baseUrl": ".",   
     "paths": {
       "@/*": ["src/*"]
     }
